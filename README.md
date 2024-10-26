@@ -2,7 +2,10 @@
 Classification - Student Performance Prediction
 Build a system to predict if a student will be a High Achiever,
 Pass, or Fail in the MI-class based on HW and exam scores
+
 This function classifies students into "High Achiever," "Pass," or "Fail" based on their homework and exam scores, and it uses simple condition checks to determine each category.
+
+
 def classify_student(homework_score, exam_score):
     # Classification logic
     if homework_score >= 85 and exam_score >= 85:
